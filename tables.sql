@@ -1,5 +1,3 @@
--- EV charging network schema (3 tables: stations, users, sessions)
-
 CREATE TABLE stations (
     station_id   INT          PRIMARY KEY,
     name         VARCHAR(100) NOT NULL,
