@@ -1,2 +1,6 @@
 # SQL_EV_charging
-This project models a simplified version of an EV charging network: charging stations, registered users, and charge sessions. It's written to be Snowflake-compatible but runs on any standard SQL database.
+A small SQL project built around an EV charging network. 3 tables: stations (locations and specs), users (registered accounts), and sessions (one row every time someone plugs in, with start time, end time, and kWh delivered).
+
+- tables.sql: Creates the three tables 
+- data.sql: Inserts mock data 
+- queries.sql Five analytical queries 
